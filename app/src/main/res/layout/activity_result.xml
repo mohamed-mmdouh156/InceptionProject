@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".result">
+
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ListView
+        android:id="@+id/result_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="#fff"
+        android:dividerHeight="10dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        >
+
+
+
+        <EditText
+            android:id="@+id/result_layout_num_et"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:inputType="number"
+            android:textColor="#2c3e50"
+            android:hint="How many"
+            />
+
+
+        <Button
+            android:id="@+id/result_layout_ok_btn"
+            android:text="OK"
+            android:textColor="#fff"
+            android:background="@drawable/button_layout_login"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="75dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/result_layout_num_et_price"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:textColor="#2c3e50"
+        android:hint="Price For One"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/result_layout_address_et"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:textColor="#2c3e50"
+        android:drawableEnd="@drawable/ic_baseline_location_on_24"
+        android:hint="Enter your address "
+        />
+
+    <TextView
+        android:id="@+id/result_layout_price_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:textColor="#2c3e50"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+      android:background="@drawable/menu_row_shape"
+        />
+
+    <Button
+        android:id="@+id/result_layout_save_btn"
+        android:layout_width="265dp"
+        android:layout_height="65dp"
+        android:text="SAVE ORDER"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/button_layout_login"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>

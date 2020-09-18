@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Resturant</string>
+
+    //---------------------------- start layout ---------------------------
+    //--(text)
+
+    <string name="start_layout_login_btn">LOGIN</string>
+    <string name="start_layout_create_account_btn">CREATE ACCOUNT</string>
+
+
+    //-----------------------------Login layout -----------------------------
+    //--(text)
+
+    <string name="login_layout_mail_et_hint">Enter your Mail</string>
+    <string name="login_layout_password_et_hint">Enter your password</string>
+    <string name="login_layout_show_pass_cb">Show Password</string>
+    <string name="login_layout_sign_in_btn">SIGN IN</string>
+    <string name="login_layout_create_account_tv">Create Account ?</string>
+
+
+    //-----------------------------register layout -----------------------------
+    //--(text)
+
+    <string name="register_layout_name_et_hint">Enter your Name</string>
+    <string name="register_layout_mail_et_hint">Enter your Mail</string>
+    <string name="register_layout_Phone_et_hint">Enter your Phone</string>
+    <string name="register_layout_password_et_hint">Enter your Password</string>
+    <string name="register_layout_create_account_btn">CREATE ACCOUNT</string>
+
+
+    //-----------------------------Home layout -----------------------------
+    //--(text)
+
+    //------------- home tab -------------------------
+    <string name="home_layout_tab_food" >Foods</string>
+    <string name="home_layout_tab_drinks" >Drinks</string>
+
+    //------------ food tab row -----------------
+
+    <string name="home_food_tab_meal" >Meal</string>
+    <string name="home_food_tab_pizza" >Pizza</string>
+    <string name="home_food_tab_sandwitch" >Sandwitch</string>
+    <string name="home_food_tab_crepe" >Crepe</string>
+
+    //------------ drink tab row-----------------
+
+    <string name="home_drink_tab_hot" >Hot Drinks</string>
+    <string name="home_drink_tab_soft" >Soft Drinks</string>
+    <string name="home_drink_tab_juice" >Juice</string>
+    <string name="home_drink_tab_ice_cream" >Ice Cream</string>
+
+
+    //----------------------------- meal menu layout -----------------------------
+    //--(text)
+
+    <string name="meal_menu_layout_kebab_meal" >Kebab Meal</string>
+    <string name="meal_menu_layout_chicken_meal" >Half Chicken Meal</string>
+    <string name="meal_menu_layout_shish_tawook" >Shish Tawook Meal</string>
+    <string name="meal_menu_layout_mix_grill" >Mix Grill Meal</string>
+    <string name="meal_menu_layout_grilled_liver" >Grilled Liver Meal</string>
+    <string name="meal_menu_layout_grilled_chicken" >Grilled Chicken Meal</string>
+
+
+    //----------------------------- pizza menu layout -----------------------------
+    //--(text)
+
+    <string name="pizza_menu_layout_Margherita_Pizza" >Margherita Pizza</string>
+    <string name="pizza_menu_layout_Chicken_Pizza" >Chicken Pizza</string>
+    <string name="pizza_menu_layout_Meat_Pizza" >Meat Pizza</string>
+    <string name="pizza_menu_layout_Cheese_Pizza" >Cheese Pizza</string>
+    <string name="pizza_menu_layout_Tuna_pizza" >Tuna pizza</string>
+    <string name="pizza_menu_layout_Shrimp_pizza" >Shrimp pizza</string>
+
+
+    //----------------------------- sandwitch menu layout -----------------------------
+    //--(text)
+
+    <string name="sandwitch_menu_layout_Cheese_Burger" >Cheese Burger</string>
+    <string name="sandwitch_menu_layout_Hawawshi_Sandwich" >Hawawshi Sandwich</string>
+    <string name="sandwitch_menu_layout_Kebab_Sandwich" >Kebab Sandwich</string>
+    <string name="sandwitch_menu_layout_Kofta_Sandwich" >Kofta Sandwich</string>
+    <string name="sandwitch_menu_layout_Meat_Sandwich" >Meat Sandwich</string>
+    <string name="sandwitch_menu_layout_Chicken_Sandwich" >Chicken Sandwich</string>
+
+
+    //----------------------------- Crepe menu layout -----------------------------
+    //--(text)
+
+
+    <string name="crepe_menu_layout_Burger_Crepe" >Burger Crepe</string>
+    <string name="crepe_menu_layout_Sausage_Crepe" >Sausage Crepe</string>
+    <string name="crepe_menu_layout_Kofta_crepe" >Kofta crepe</string>
+    <string name="crepe_menu_layout_Nutella" >Nutella and banana crepe</string>
+    <string name="crepe_menu_layout_Beef_crepe" >Beef crepe</string>
+    <string name="crepe_menu_layout_Chicken_crepe" >Chicken crepe</string>
+
+
+
+    //--------------------------------- drinks tab ---------------------
+    //----------------------------- hot drink menu layout ------------------
+    //--(text)
+
+    <string name="hot_drink_menu_Tea" >Tea</string>
+    <string name="hot_drink_menu_Milk_Tea" >Milk Tea</string>
+    <string name="hot_drink_menu_Coffee" >Coffee</string>
+    <string name="hot_drink_menu_Hazelnut_Coffee" >Hazelnut Coffee</string>
+    <string name="hot_drink_menu_Nescafe" >Nescafe</string>
+    <string name="hot_drink_menu_Cappuccino" >Cappuccino</string>
+    <string name="hot_drink_menu_Hot_Chocolate" >Hot Chocolate</string>
+    <string name="hot_drink_menu_Espresso" >Espresso</string>
+    <string name="hot_drink_menu_Sahlab" >Sahlab</string>
+
+
+
+    //----------------------------- soft drink menu layout ------------------
+    //--(text)
+
+    <string name="soft_drink_menu_Pepsi" >Pepsi</string>
+    <string name="soft_drink_menu_7up" >7up</string>
+    <string name="soft_drink_menu_Mirinda" >Mirinda</string>
+    <string name="soft_drink_menu_Rennie" >Rennie</string>
+    <string name="soft_drink_menu_Pirrell" >Pirrell</string>
+    <string name="soft_drink_menu_Fayrouz" >Fayrouz</string>
+
+
+
+
+    //----------------------------- ice cream menu layout ------------------
+    //--(text)
+
+    <string name="ice_cream_menu_Milk_Shake" >Milk Shake</string>
+    <string name="ice_cream_menu_Oreo" >Oreo</string>
+    <string name="ice_cream_menu_Twix" >Twix</string>
+    <string name="ice_cream_menu_Kinder" >Kinder</string>
+    <string name="ice_cream_menu_Nutella" >Nutella</string>
+
+
+    //----------------------------- juice menu layout ------------------
+    //--(text)
+
+    <string name="juice_menu_Cocktail" >Cocktail</string>
+    <string name="juice_menu_Strawberries" >Strawberries</string>
+    <string name="juice_menu_Mango" >Mango</string>
+    <string name="juice_menu_Orange" >Orange</string>
+    <string name="juice_menu_Red_Mulberry" >Red Mulberry</string>
+    <string name="juice_menu_Guava" >Guava</string>
+
+
+    //----------------------------- result layout ------------------
+    //--(text)
+
+    <string name="result_layout_num_et" >How many</string>
+    <string name="result_layout_ok_btn" >OK</string>
+    <string name="result_layout_num_et_price" >Price For One</string>
+    <string name="result_layout_address_et" >Enter your address </string>
+    <string name="result_layout_save_btn" >SAVE ORDER </string>
+    <string name="result_layout_price_tv" >The price :  </string>
+
+    <string name="btn_text">About Application {Menu}</string>
+
+
+</resources>
